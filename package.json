@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+    "start": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch",
+    "server": "npx live-server public"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }
