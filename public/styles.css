@@ -1,3 +1,163 @@
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-Black.ttf');
+
+  font-style: normal;
+
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-BlackItalic.ttf');
+
+  font-style: italic;
+
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-Bold.ttf');
+
+  font-style: normal;
+
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-BoldItalic.ttf');
+
+  font-style: italic;
+
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-ExtraBold.ttf');
+
+  font-style: normal;
+
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-ExtraBoldItalic.ttf');
+
+  font-style: italic;
+
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-ExtraLight.ttf');
+
+  font-style: normal;
+
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-ExtraLightItalic.ttf');
+
+  font-style: italic;
+
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-Light.ttf');
+
+  font-style: normal;
+
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-LightItalic.ttf');
+
+  font-style: italic;
+
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-Medium.ttf');
+
+  font-style: normal;
+
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-MediumItalic.ttf');
+
+  font-style: italic;
+
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-Regular.ttf');
+
+  font-style: normal;
+
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-Italic.ttf');
+
+  font-style: italic;
+
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-SemiBold.ttf');
+
+  font-style: normal;
+
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('/fonts/Nunito-SemiBoldItalic.ttf');
+
+  font-style: italic;
+
+  font-weight: 600;
+}
+
 /*
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
@@ -597,6 +757,10 @@ video {
 
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.font-primary {
+  font-family: "Nunito";
 }
 
 .text-3xl {
